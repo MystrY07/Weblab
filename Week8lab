@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Week 8 lab</title>
+	<link rel="stylesheet" href="StyleSheet8.css" />
+	
+
+
+</head>
+<body>
+	<h1>Graded lab exercise - week 8</h1>
+
+	<div class="everything">
+		<p id="example1">This is the first example of javascript.</p>
+		<button type="button" onclick="myFirstFunction()">Click here to try it</button>
+		<br />
+
+		<p id="example2">if you look in the browser you can see that what you are reading right now, you will not find because JS changed it.</p><br/>
+
+		<h2 id="example3H">This is a heading for example 3 .</h2>
+		<p id="example3P">this is a paragraph for example 3 </p>
+
+
+		<!-- add your JavaScript inside the section below -->
+		<script type="text/javascript">
+			//this is a comment in JS
+			//add 3 examples of JavaScript code
+
+			//example 1, this first example changes the paragraph when you hit the button
+			function myFirstFunction() {
+				document.getElementById("example1").innerHTML = "As you can see by hitting the button it changed the paragraph.";
+			};
+			//example 2, this example the code will change the paragraph with the id "example2"
+			document.getElementById("example2").innerHTML = "This is only being said because i told js to change this paragraph to what it says right now.";
+
+			//example 3, this is to show that the code the starting with "//" will NOT be executed.
+			//document.getElementById("example3H").innerHTML = "My First Page";
+			document.getElementById("example3P").innerHTML = "My first paragraph.";
+		</script>
+
+
+
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>
